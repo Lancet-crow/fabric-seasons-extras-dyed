@@ -72,7 +72,7 @@ public class FabricSeasonsExtras implements ModInitializer {
     //Blocks
     public static SeasonCalendarBlock SEASON_CALENDAR_BLOCK;
 
-    public static GreenhouseGlassBlock[] GREENHOUSE_GLASS_BLOCKS = new GreenhouseGlassBlock[DyeColor.values().length];
+    public static GreenhouseGlassBlock[] GREENHOUSE_GLASS_BLOCKS = new GreenhouseGlassBlock[DyeColor.values().length + 1];
 
     //Items
     public static ModIdentifier SEASONAL_COMPENDIUM_ITEM_ID = new ModIdentifier("seasonal_compendium");
